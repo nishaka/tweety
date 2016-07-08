@@ -10,9 +10,13 @@ if(n>0)
 {
 System.out.println("Positive number"+n);
 }
-else
+else if (n<0)
 {
 System.out.println("Negative number"+n);
+}
+else
+{
+  System.out.println("Zero");
 }
 }
 }
