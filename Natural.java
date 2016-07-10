@@ -1,12 +1,17 @@
-import java.util.*;
-class Natural
+public class Natural 
 {
-public static void main(String args[])
-{
-int n;
-Scanner sc=new Scanner(System.in);
-n=sc.nextInt();
-int nat=(n*(n+1))/2;
-System.out.println("Natural number"+nat);
-}
+    public static void main(String args[])
+    {
+        int x, i = 1 ;
+        int sum = 0;
+        System.out.println("Enter Number of items :");
+        Scanner s = new Scanner(System.in);
+        x = s.nextInt();
+        while(i <= x)
+        {
+            sum = sum +i;
+            i++;
+        }
+        System.out.println("Sum of "+x+" numbers is :"+sum);
+    } 
 }
