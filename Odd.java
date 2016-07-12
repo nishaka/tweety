@@ -3,18 +3,16 @@ class Odd
 {
 public static void main(String args[])
 {
-int n,i;
+int n,m;
 Scanner sc=new Scanner(System.in);
 n=sc.nextInt();
-for(i=0;i<n;i++)
+m=sc.nextInt();
+for(int i=n;i<m;i++)
 {
-if(n%i==0)
+if(n%2!=0)
 {
-break;
+System.out.println(i);
 }
-else
-{
-System.out.println("Odd");
 }
 }
 }
